@@ -1,0 +1,646 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Анастасия <existenciya@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in echo
+#: feed-me-seymour/single.php:11
+msgid " and is filed under "
+msgstr " Рубрика:"
+
+#. Text in echo
+#: feed-me-seymour/single.php:11
+msgid " at "
+msgstr " "
+
+#. Text in echo
+#: feed-me-seymour/single.php:11
+msgid " feed."
+msgstr " лента."
+
+#. Text in function
+#: feed-me-seymour/archive.php:39
+#: feed-me-seymour/search.php:24
+msgid "% Comments &#187;"
+msgstr "Отзывов (%) &#187;"
+
+#. Text in function
+#: feed-me-seymour/footer.php:12
+msgid "%1$s created by %2$s"
+msgstr "%1$s от%2$s"
+
+#. Text in function
+#: feed-me-seymour/search.php:2
+msgid "%1$s search results for \"%2$s\""
+msgstr "%1$s результатов для фразы: %2$s"
+
+#. Text in function
+#: feed-me-seymour/archive.php:46
+#: feed-me-seymour/search.php:29
+#: feed-me-seymour/index.php:55
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Предыдущая страница"
+
+#. Text in function
+#: feed-me-seymour/comments.php:35
+msgid "&larr; Older Comments"
+msgstr "&larr; Следующая страница"
+
+#. Text in function
+#: feed-me-seymour/functions.php:693
+msgid "(Edit)"
+msgstr "(Править)"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_feature.php:78
+msgid "(Note: The selected will be excluded from the main content on the index page)"
+msgstr "(Обратите внимание: Выбранное будет исключено из показа на главной странице)"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_feature.php:69
+msgid "(max 5)"
+msgstr "(максимум 5)"
+
+#. Text in function
+#: feed-me-seymour/archive.php:39
+#: feed-me-seymour/search.php:24
+msgid "1 Comment &#187;"
+msgstr "1 отзыв &#187;"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "1024px"
+msgstr ""
+
+#. Text in function
+#: feed-me-seymour/functions.php:465
+msgid "180px"
+msgstr ""
+
+#. Text in function
+#: feed-me-seymour/functions.php:465
+msgid "300px"
+msgstr ""
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "800px"
+msgstr ""
+
+#. Text in echo
+#: feed-me-seymour/functions.php:699
+msgid "<em>Your comment is awaiting moderation.</em>"
+msgstr "<em>Спасибо! Ваш комментарий ожидает проверки.</em>"
+
+#. Text in echo
+#: feed-me-seymour/archive.php:50
+msgid "<h2 class='center'>No posts found.</h2>"
+msgstr "<h2 class='center'>Ничего не найдено.</h2>"
+
+#. Text in function
+#: feed-me-seymour/archive.php:50
+msgid "<h2 class='center'>Sorry, but there aren't any posts by %s yet.</h2>"
+msgstr "<h2 class='center'>К сожалению, автор %s еще ничего не опубликовал.</h2>"
+
+#. Text in function
+#: feed-me-seymour/archive.php:50
+msgid "<h2 class='center'>Sorry, but there aren't any posts in the %s category yet.</h2>"
+msgstr "<h2 class='center'>К сожалению, в рубрике &laquo;%s&raquo; еще ничего не опубликовано.</h2>"
+
+#. Text in echo
+#: feed-me-seymour/archive.php:50
+msgid "<h2>Sorry, but there aren't any posts with this date.</h2>"
+msgstr "<h2>К сожалению, за эту дату ничего не опубликовано.</h2>"
+
+#. Text in function
+#: feed-me-seymour/single.php:8
+msgid "<p class=\"tags\"><small>Tags: "
+msgstr "<p class=\"tags\"><small>Метки: "
+
+#. Text in function
+#: feed-me-seymour/functions.php:228
+msgid "A lot of hard work went into creating %s. If you would like to show your support, please use the donate link below."
+msgstr "Потребовалось много времени и тяжелой работы, чтобы сделать %s. Если вы хотите проявить свою поддержку, пожалуйста, оставьте ссылку в нижней части сайта."
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Add meta tag description (Excerpt used on single posts and pages)"
+msgstr "Добавьте мета-описание (Для статических страниц и хронологических статей используется Анонс)"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Add meta tag keywords, separate by comma (Tags are used on single posts)"
+msgstr "Добавьте ключевые слова, разделенные запятыми (Для статических страниц и хронологических статей используются Метки)"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Add your Google Analytics code"
+msgstr "Ваш код Google Analytics"
+
+#. Text in echo
+#: feed-me-seymour/functions.php:218
+msgid "Affiliates Program"
+msgstr "Партнерская программа"
+
+#. Text in echo
+#: feed-me-seymour/sidebar.php:16
+msgid "Archive"
+msgstr "Архив"
+
+#. Text in echo
+#: feed-me-seymour/archive.php:12
+#: feed-me-seymour/archive.php:14
+#: feed-me-seymour/archive.php:16
+msgid "Archive for "
+msgstr "Архив за"
+
+#. Text in echo
+#: feed-me-seymour/archive.php:18
+msgid "Author Archive"
+msgstr "Архив автора"
+
+#. Text in echo
+#: feed-me-seymour/archive.php:20
+msgid "Blog Archives"
+msgstr "Архив сайта"
+
+#. Text in echo
+#: feed-me-seymour/functions.php:370
+#: feed-me-seymour/functions.php:373
+#: feed-me-seymour/functions.php:376
+#: feed-me-seymour/functions.php:379
+msgid "Buy Now"
+msgstr "Купите прямо сейчас"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_feature.php:17
+msgid "By"
+msgstr "Автор:"
+
+#. Text in echo
+#: feed-me-seymour/sidebar-second.php:12
+msgid "Calendar"
+msgstr "Календарь"
+
+#. Text in function
+#: feed-me-seymour/functions.php:262
+msgid "Close All"
+msgstr "Закрыть все"
+
+#. Text in echo
+#: feed-me-seymour/comments.php:46
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_login.php:5
+#: feed-me-seymour/header.php:39
+msgid "Control Panel"
+msgstr "Панель управления"
+
+#. Text in function
+#: feed-me-seymour/footer.php:12
+msgid "Copyright &copy; %1$d %2$s. All Rights Reserved."
+msgstr "&copy; %1$d %2$s. Все права защиещны."
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_login.php:8
+msgid "Dashboard"
+msgstr "Консоль"
+
+#. Text in function
+#: feed-me-seymour/widgets/widget_feature.php:80
+msgid "Displays featured posts from one category"
+msgstr "Показывать публикации из избранной рубрики"
+
+#. Text in echo
+#: feed-me-seymour/functions.php:226
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#. Text in function
+#: feed-me-seymour/archive.php:39
+#: feed-me-seymour/search.php:24
+msgid "Edit"
+msgstr "Изменить"
+
+#. Text in function
+#: feed-me-seymour/widgets/widget_feature.php:80
+msgid "FMS - Featured Post"
+msgstr "FMS - Рекомендуемая статья"
+
+#. Text in function
+#: feed-me-seymour/widgets/widget_login.php:27
+msgid "FMS - User Login"
+msgstr "FMS - Вход"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "First Sidebar Width"
+msgstr "Ширина первого сайдбара"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_feature.php:71
+msgid "From which category: "
+msgstr "Из рубрики:"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Google Analytics"
+msgstr ""
+
+#. Text in function
+#: feed-me-seymour/functions.php:245
+msgid "Header &amp; Footer"
+msgstr "Подвал и Шапка"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Header Logo"
+msgstr "Лого"
+
+#. Text in function
+#: feed-me-seymour/sidebar.php:3
+msgid "Home"
+msgstr "Главная"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "How many posts would you like to appear on the main page?"
+msgstr "Как много статей должно отображаться на главной?"
+
+#. Text in echo
+#: feed-me-seymour/functions.php:346
+msgid "How to Customize a Basic Theme"
+msgstr "Как настроить базовую тему"
+
+#. Text in echo
+#: feed-me-seymour/functions.php:346
+msgid "If you have any questions, comments, or if you encounter a bug, please visit our <a href=\"http://support.bavotasan.com/\">Support Forum</a> and let us know."
+msgstr "Если у вас есть какие-либо вопросы, комментарии, или вы столкнулись с багом, пожалуйста, посетите наш <a href=\"http://support.bavotasan.com/\">Форум поддержки</a> и сообщите нам об этом"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "If you would like to display a logo in the header, please enter the file path above."
+msgstr "Если вы хотите показывать лого в шапке, пожалуйста, введите путь к изображению здесь."
+
+#. Text in function
+#: feed-me-seymour/functions.php:245
+msgid "Info"
+msgstr "Инфо"
+
+#. Text in echo
+#: feed-me-seymour/functions.php:346
+msgid "Instruction Manual"
+msgstr "Руководство"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#. Text in function
+#: feed-me-seymour/functions.php:163
+#: feed-me-seymour/functions.php:205
+msgid "Layout Options"
+msgstr "Настройка структуры"
+
+#. Text in function
+#: feed-me-seymour/header.php:52
+msgid "Log In"
+msgstr "Войти"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_login.php:15
+#: feed-me-seymour/header.php:44
+msgid "Log Out"
+msgstr "Выйти"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_login.php:7
+#: feed-me-seymour/header.php:38
+msgid "Logged in as:"
+msgstr "Вы вошли как"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Logo or Blog Name Location"
+msgstr "Расположение логотипа и заголовка сайта"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_login.php:24
+msgid "Lost your password"
+msgstr "Напомнить?"
+
+#. Text in function
+#: feed-me-seymour/functions.php:245
+msgid "Main"
+msgstr "Основное"
+
+#. Text in echo
+#: feed-me-seymour/functions.php:370
+#: feed-me-seymour/functions.php:373
+#: feed-me-seymour/functions.php:376
+#: feed-me-seymour/functions.php:379
+msgid "More Info"
+msgstr "Больше информации"
+
+#. Text in function
+#: feed-me-seymour/comments.php:36
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &rarr;"
+
+#. Text in function
+#: feed-me-seymour/archive.php:47
+#: feed-me-seymour/search.php:30
+#: feed-me-seymour/index.php:56
+msgid "Newer Entries &raquo;"
+msgstr "Новые публикации &raquo;"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "No"
+msgstr "Нет"
+
+#. Text in function
+#: feed-me-seymour/archive.php:39
+#: feed-me-seymour/search.php:24
+msgid "No Comments &#187;"
+msgstr "Нет комментариев &#187;"
+
+#. Text in function
+#: feed-me-seymour/functions.php:465
+#: feed-me-seymour/functions.php:708
+msgid "None"
+msgstr "Нет"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Number of Posts"
+msgstr "Количество публикаций"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_feature.php:67
+msgid "Number of posts to show: "
+msgstr "Количество публикаций для показа:"
+
+#. Text in function
+#: feed-me-seymour/functions.php:262
+msgid "Open All"
+msgstr "Открыть все"
+
+#. Text in function
+#: feed-me-seymour/functions.php:206
+msgid "Options Saved"
+msgstr "Настройки сохранены"
+
+#. Text in function
+#: feed-me-seymour/single.php:15
+#: feed-me-seymour/page.php:7
+msgid "Pages"
+msgstr "Страницы"
+
+#. Text in function
+#: feed-me-seymour/archive.php:25
+#: feed-me-seymour/search.php:9
+#: feed-me-seymour/index.php:36
+msgid "Permanent Link to %s"
+msgstr "Постоянная ссылка: %s"
+
+#. Text in function
+#: feed-me-seymour/archive.php:39
+#: feed-me-seymour/search.php:24
+msgid "Posted in"
+msgstr "Рубрика:"
+
+#. Text in function
+#: feed-me-seymour/archive.php:9
+msgid "Posts Tagged &#8216; %s &#8217;"
+msgstr "Метка: %s"
+
+#. Text in function
+#: feed-me-seymour/footer.php:12
+msgid "Powered by %s"
+msgstr "Работает на %s"
+
+#. Text in function
+#: feed-me-seymour/functions.php:245
+msgid "Premium Themes"
+msgstr "Премиум-темы"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_login.php:14
+#: feed-me-seymour/header.php:43
+msgid "Profile"
+msgstr "Профиль"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "RSS Button"
+msgstr "RSS-кнопка"
+
+#. Text in echo
+#: feed-me-seymour/index.php:48
+msgid "Read More &raquo;"
+msgstr "Читать полностью &raquo;"
+
+#. Text in function
+#: feed-me-seymour/functions.php:556
+msgid "Read more &raquo;"
+msgstr "Читать полностью &raquo;"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_login.php:23
+#: feed-me-seymour/header.php:51
+msgid "Register"
+msgstr "Регистрация"
+
+#. Text in function
+#: feed-me-seymour/comments.php:30
+msgid "Reply"
+msgstr "Ответ"
+
+#. Text in echo
+#: feed-me-seymour/functions.php:213
+msgid "Resources"
+msgstr "Ресурсы"
+
+#. Text in function
+#: feed-me-seymour/functions.php:245
+msgid "SEO"
+msgstr ""
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Second Sidebar Width"
+msgstr "Ширина второго сайдбара"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Select the width of your site."
+msgstr "Выберите ширину своего сайта."
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Sidebar Location"
+msgstr "Расположение сайдбара"
+
+#. Text in function
+#: feed-me-seymour/functions.php:245
+msgid "Sidebars"
+msgstr "Сайдбары"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Site Description"
+msgstr "Описание сайта"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Site Width"
+msgstr "Ширина сайта"
+
+#. Text in echo
+#: feed-me-seymour/search.php:34
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "К сожалению, по вашему запросу ничего не найдено."
+
+#. Text in echo
+#: feed-me-seymour/single.php:19
+msgid "Sorry, no posts matched your criteria."
+msgstr "К сожалению, по вашему запросу ничего не найдено."
+
+#. Text in echo
+#: feed-me-seymour/sidebar.php:30
+#: feed-me-seymour/header.php:68
+msgid "Subscribe to RSS"
+msgstr "Подписка на RSS"
+
+#. Text in echo
+#: feed-me-seymour/functions.php:217
+msgid "Support Forum"
+msgstr "Форум поддержки"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Tag Line"
+msgstr "Слоган"
+
+#. Text in function
+#: feed-me-seymour/archive.php:39
+#: feed-me-seymour/sidebar.php:22
+#: feed-me-seymour/search.php:24
+msgid "Tags"
+msgstr "Метки"
+
+#. Text in echo
+#: feed-me-seymour/functions.php:346
+msgid "There are tons of layout possibilities available with this theme, as well as a bunch of cool features that will surely help you get your site looking and working it's best."
+msgstr " Есть масса вариаций структуры этой темы, так же как и супер-функций, которые определенно помогут вам создать прекрасный дизайн для вашего сайта."
+
+#. Text in echo
+#: feed-me-seymour/single.php:11
+msgid "This entry was posted on "
+msgstr " "
+
+#. Text in echo
+#: feed-me-seymour/comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Пожалуйста, введите пароль для просмотра комментариев."
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_feature.php:64
+msgid "Title: "
+msgstr "Заголовок: "
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+#: feed-me-seymour/widgets/widget_login.php:20
+msgid "User Login"
+msgstr "Вход"
+
+#. Text in function
+#: feed-me-seymour/widgets/widget_login.php:27
+msgid "User login and control panel"
+msgstr "Вход для пользователя и панель управления"
+
+#. Text in function
+#: feed-me-seymour/functions.php:346
+msgid "Version"
+msgstr "Версия"
+
+#. Text in echo
+#: feed-me-seymour/functions.php:370
+#: feed-me-seymour/functions.php:373
+#: feed-me-seymour/functions.php:376
+#: feed-me-seymour/functions.php:379
+msgid "View Demo"
+msgstr "Демонстрация"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "What would you like your first sidebar width to be?"
+msgstr "Какую ширину хотите выбрать для первого сайдбара?"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "What would you like your second sidebar width to be?"
+msgstr "Какую ширину хотите выбрать для второго сайдбара?"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Where do you want your Logo or Blog Name located?"
+msgstr "Где хотите расположить свое лого или название сайта?"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Where would you like your sidebars located?"
+msgstr "Где хотите расположить сайдбары7"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Would you like an RSS Button in your header?"
+msgstr "Хотите расположить кнопку RSS в шапке?"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Would you like to display a tag line beneath your blog name/logo?"
+msgstr "Хотите показывать слоган под логотипом/заголовком сайта?"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Would you like to have a User Login section at the top of your site?"
+msgstr "Хотите форму входа на сайт в верхней части сайта?"
+
+#. Text in echo
+#: feed-me-seymour/widgets/widget_login.php:11
+#: feed-me-seymour/header.php:41
+msgid "Write"
+msgstr "Написать"
+
+#. Text in function
+#: feed-me-seymour/functions.php:708
+msgid "Yes"
+msgstr "Да"
+
+#. Text in echo
+#: feed-me-seymour/single.php:11
+msgid "You can follow any responses to this entry through the "
+msgstr "Вы можете следить за комментариями через"
+
+#. Text in function
+#: feed-me-seymour/functions.php:693
+msgid "on %1$s at %2$s"
+msgstr "%1$s в %2$s"
+
