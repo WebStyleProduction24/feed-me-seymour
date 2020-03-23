@@ -33,7 +33,7 @@
 	<?php while (have_posts()) : the_post(); ?>
 		<div class="flex-post">
 		<div class="rubric">Раздел: <?php the_category( ' / ', 'multiple'); ?></div>
-		<div class="date_post"><?php the_date('','Дата публикации: '); ?></div>
+		<div class="date_post">Опубликовано <?php  the_time('d.m.Y в H:i','Опубликовано: '); ?></div>
 		</div>
 		<?php $classes = 'threepost threepost'; if($i==7) { $i = 4; } $classes .= $i; $i++; ?>
 		<div <?php post_class($classes); ?> id="post-<?php the_ID(); ?>">
@@ -50,6 +50,7 @@
                 ?>
 				<?php the_excerpt(); ?>
 				<p class="contread"><a href="<?php the_permalink(); ?>"><?php _e("Read More &raquo;", "feed-me-seymour"); ?></a></p>
+				<div class="author_post">Автор публикации: <?php echo get_the_author(); ?></div>
 
 			 </div>
 		 </div>
