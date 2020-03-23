@@ -49,9 +49,10 @@
                 }
                 ?>
 				<?php the_excerpt(); ?>
-				<p class="contread"><a href="<?php the_permalink(); ?>"><?php _e("Read More &raquo;", "feed-me-seymour"); ?></a></p>
+				<div class="flex-post">
 				<div class="author_post">Автор публикации: <?php echo get_the_author(); ?></div>
-
+				<p class="contread"><a href="<?php the_permalink(); ?>"><?php _e("Read More &raquo;", "feed-me-seymour"); ?></a></p>
+				</div>
 			 </div>
 		 </div>
 	<?php endwhile; ?>

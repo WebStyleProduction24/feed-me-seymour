@@ -33,9 +33,11 @@
 
 .date_post {
     text-align: right;
-    color:#888;
-   
-    
+    color:#888;   
+}
+.author_post{
+  color:#888;
+  font-size: 12px;
 }
 .flex-post {
     display:flex;
