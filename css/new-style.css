@@ -64,3 +64,11 @@
 .searchform{
   position: relative;
 }
+
+.border-bottom {
+  border-bottom: 1px solid #aaa;
+  padding-bottom:5px;
+}
+.em-calendar{
+  font-size: 12px;
+}
