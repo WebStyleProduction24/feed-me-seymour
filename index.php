@@ -59,7 +59,7 @@
 		</div>
 	</div>
     <div class="navigation">
-        <div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries', "feed-me-seymour")) ?></div>
-		<div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;', "feed-me-seymour")) ?></div>
+        <div class="alignright"><?php next_posts_link(__('Предыдущая страница &raquo;', "feed-me-seymour")) ?></div>
+		<div class="alignleft"><?php previous_posts_link(__('&laquo; Следующая страница', "feed-me-seymour")) ?></div>
     </div>  
 <?php get_footer(); ?>

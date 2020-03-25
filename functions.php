@@ -735,7 +735,7 @@ function set_theme_background() {
 	} elseif(!empty($bgcolor)) {
 		echo "body { background-color: #".$bgcolor."; }; \n";
 	} else {
-		echo "body { background: url(".THEME_URL."/images/background.png) #fee9c9 repeat-x; }\n";
+		echo "body { background:  linear-gradient(to bottom, #ffffff 0% ,#dadada 40%, #cbcbcb 45%) }\n";
 	}
 	echo "</style>";
 }

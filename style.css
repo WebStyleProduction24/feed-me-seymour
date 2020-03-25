@@ -31,7 +31,7 @@ img {
 body {
 	color: #444;
  	margin: auto; 
-	font-size: 14px; 
+	font-size: 13px; 
 	padding: 0 20px;
 	font-family: Arial; 
 	}
@@ -68,8 +68,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 	color: #fff;
 	text-align: right;
 	padding: 10px 10px 7px;
-	background: url(images/login.png) repeat-x #F7921E;
-	border: 3px double #fff;
+	background: #0770b9 ;
+	border: 3px double #ff3333;
 	margin-bottom: 5px;
 	}
 	
@@ -92,8 +92,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 	font-weight: bold;
 	color: #fff;
 	text-align: right;
-	background: url(images/login.png) repeat-x #F7921E;
-	border: 3px double #fff;
+	background:#0770b9;
+	border: 3px double #ff3333;
 	margin-bottom: 5px;
 	padding: 5px 10px 12px;
 	clear: both;
@@ -215,18 +215,17 @@ ul.cats li {
 	}
 
 ul.cats li a:hover { 
-	background: url(images/sidebarhover.png) center repeat-y #E06110;
+	background: #0770b9;
 	}
 
 ul.cats li a {
 	padding: 3px 0 3px 5px;
 	font-weight: bold;
-	background-image: url(images/sidebar.png);
 	background-repeat: repeat-y;
 	background-position: center;
 	height: 1%;
-	background-color: #F7931E;
-	border: 3px double #fff;
+	background-color: #0770b9;
+	border: 3px double #ff3333;
 	color: #FFF;
 	display: block;
 	text-decoration: none;
@@ -286,9 +285,9 @@ ul.cats ul {
 .side-widget {
 	float: left;
 	margin: 0 0 .5em;
-	background: url(images/sidebar.png) center repeat-y #F7931E;
+	background: #0770b9;
 	padding: 0 0 10px;
-	border: 3px double #fff;
+	border: 3px double #ff3333;
 	}
 	
 	.side-widget h3.side,
@@ -349,6 +348,7 @@ ul.cats ul {
 	word-wrap: break-word; 
 	overflow:hidden;
 	padding-bottom:20px;
+	line-height:1.5;
 }
 
 .archive .post,
