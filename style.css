@@ -72,6 +72,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 	border: 1px solid #fff;
 	outline: solid 1px #ec1d27;
 	margin-bottom: 5px;
+	margin-top: 1px;
 	}
 	
 	#login a {

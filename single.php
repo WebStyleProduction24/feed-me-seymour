@@ -3,13 +3,14 @@
 		<div <?php post_class('posts'); ?> id="post-<?php the_ID(); ?>">
 		<div class="flex-post border-bottom">
 		<div class="rubric">Раздел: <?php the_category( ' / ', 'multiple'); ?></div>
+		<div class="single_tags"> <?php the_tags(__('<p class="tags">Метки: ', "feed-me-seymour"), ', ', '</p>'); ?> </div>
 		<div class="date_post">Опубликовано <?php  the_time('d.m.Y в H:i','Опубликовано: '); ?></div>
 		</div>
 		
 			<h1><?php the_title(); ?></h1>
 			<div class="entry">
 				<?php the_content(); ?>
-				<?php the_tags(__('<p class="tags"><small>Tags: ', "feed-me-seymour"), ', ', '</small></p>'); ?>
+				
 				
 			</div>
        		<?php wp_link_pages(array('before' => '<p><strong>'.__('Pages', "feed-me-seymour").'</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>

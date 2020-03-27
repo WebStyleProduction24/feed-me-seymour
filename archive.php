@@ -22,8 +22,12 @@
 
 		<?php while (have_posts()) : the_post(); ?>
 			<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+				<div class="flex-post">
+					<div class="tags"><?php the_tags(__('Tags', "feed-me-seymour").": ", ', ', '<br />');?></div>
+					<div class="date_post">Опубликовано <?php  the_time('d.m.Y в H:i','Опубликовано: '); ?></div>
+				</div>
 				<h2><a href="<?php the_permalink() ?>" title="<?php printf(__("Permanent Link to %s", "feed-me-seymour"), the_title_attribute('echo=0')); ?>"><?php the_title(); ?></a></h2>
-				<div class="thedate"><?php the_time(get_option('date_format')); ?></div>
+				
 				<div class="entry">
 		            <?php 
 					if(function_exists('has_post_thumbnail') && has_post_thumbnail()) { 
@@ -36,15 +40,15 @@
 					?>
 					<?php the_excerpt() ?>
 				</div>
-				<p class="meta"><?php the_tags(__('Tags', "feed-me-seymour").": ", ', ', '<br />'); echo __('Posted in', "feed-me-seymour")." "; the_category(', ') ?> | <?php edit_post_link(__('Edit', "feed-me-seymour"), '', ' | '); ?>  <?php comments_popup_link(__('No Comments &#187;', "feed-me-seymour"), __('1 Comment &#187;', "feed-me-seymour"), __('% Comments &#187;', "feed-me-seymour")); ?></p>
+				<!--<p class="meta"><?php /*  echo __('Posted in', "feed-me-seymour")." "; the_category(', ') ?> | <?php edit_post_link(__('Edit', "feed-me-seymour"), '', ' | '); ?>  <?php comments_popup_link(__('No Comments &#187;', "feed-me-seymour"), __('1 Comment &#187;', "feed-me-seymour"), __('% Comments &#187;', "feed-me-seymour"));*/ ?></p>-->
 
 			</div>
 
 		<?php endwhile; ?>
 		<?php if ( $wp_query->max_num_pages > 1 ) : ?>
 		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries', "feed-me-seymour")) ?></div>
-			<div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;', "feed-me-seymour")) ?></div>
+			<div class="alignright"><?php next_posts_link(__('Следующая страница &raquo;', "feed-me-seymour")) ?></div>
+			<div class="alignleft"><?php previous_posts_link(__('&laquo; Предыдущая страница ', "feed-me-seymour")) ?></div>
 		</div>
         <?php endif; ?>
 	<?php else :
