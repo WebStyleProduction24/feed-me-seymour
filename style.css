@@ -89,6 +89,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 		}
 
 #menu-misc{
+	display: flex;
+	justify-content:space-between;
 	height: 16px;
 	font-size: 1.5em;
 	font-weight: bold;
@@ -348,7 +350,12 @@ ul.cats ul {
 		display: none;
 		}		
 		
-	#searchform { float: left; top: -2px; position: relative; }
+	#searchform { 
+		float: left; 
+		top: -2px; 
+		position: relative;
+		
+	 }
 
 .storycontent { 
 	word-wrap: break-word; 

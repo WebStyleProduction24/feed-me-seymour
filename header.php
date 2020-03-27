@@ -86,6 +86,8 @@ $float = ' class="'.$headeralign.'"';
 <div id="menu-misc">
 <?php get_search_form();?>
 <?php// if ($user_ID){?>
+<?php if( is_category() )
+	echo get_queried_object()->name;?>
 <a href='/?page_id=186' style='color:#fff !important;'>НАПИСАТЬ</a>
 <?php// }?>
 </div>

@@ -3,7 +3,7 @@
     
     <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
     <?php /* If this is a category archive */ if (is_category()) { ?>
-    <h1 class="catheader"><?php single_cat_title(); ?></h1>
+	<!--<h1 class="catheader"><?php single_cat_title(); ?></h1>-->
     <?php $catdesc = category_description(); if(stristr($catdesc,'<p>')) { echo '<div class="catdesc">'.$catdesc.'</div>'; } ?>   
     <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
     <h1 class="catheader"><?php printf(__("Posts Tagged &#8216; %s &#8217;", "feed-me-seymour"), single_tag_title('',false)); ?></h1>
