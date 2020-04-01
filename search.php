@@ -6,7 +6,7 @@
     ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-	<div class="thedate"><?php the_time(get_option('date_format')); ?>
+	<div class="date_post">Опубликовано <?php  the_time('d.m.Y в H:i','Опубликовано: '); ?></div>
 		<h2><a href="<?php the_permalink() ?>" title="<?php printf(__("Permanent Link to %s", "feed-me-seymour"), the_title_attribute('echo=0')); ?>"><?php the_title(); ?></a></h2>
 		
         <div class="entry">
@@ -27,8 +27,8 @@
     
     <?php endwhile; ?>
     	<div class="navigation">
-			<div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries', "feed-me-seymour")) ?></div>
-			<div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;', "feed-me-seymour")) ?></div>
+			<div class="alignright"><?php next_posts_link(__('Следующая страница &raquo;', "feed-me-seymour")) ?></div>
+			<div class="alignleft"><?php previous_posts_link(__('&laquo; Предыдущая страница ', "feed-me-seymour")) ?></div>
 		</div>
             
     <?php else : ?>

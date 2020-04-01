@@ -86,8 +86,11 @@ $float = ' class="'.$headeralign.'"';
 <div id="menu-misc">
 <?php get_search_form();?>
 <?php// if ($user_ID){?>
-<?php if( is_category() )
-	echo get_queried_object()->name;?>
+<!--<?php echo wp_get_document_title();?>-->
+<!--<?php if( is_category() )
+	echo get_queried_object()->name;?>-->
+<?php single_term_title(); ?>
+
 <a href='/?page_id=186' style='color:#fff !important;'>НАПИСАТЬ</a>
 <?php// }?>
 </div>

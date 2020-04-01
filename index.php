@@ -1,3 +1,4 @@
+
 <?php get_header(); ?>
 <?php	
 	$options = get_option("widget_sideFeature");
